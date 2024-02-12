@@ -4,25 +4,25 @@ A simple npm package to fetch location data based on the country using the useGo
 
 ## Installation
 
-npm install good-tenants-country-library
+npm install good-tenants-country-library-2
 
 ## Usage
 
-import useGoodTenantsCountryLibrary from "good-tenants-country-library";
+import useGoodTenantsCountryLibrary from "good-tenants-country-library-2";
 
 // Example 1
 const goodTenantsCountryLibrary = useGoodTenantsCountryLibrary();
 
-//get states
-const states = goodTenantsCountryLibrary.getStates(country)
+//get states  
+const states = goodTenantsCountryLibrary.getStates(country)  
 console.log(states);
 
-//get areas
-const area = goodTenantsCountryLibrary.getAreasByState(state, country)
+//get areas  
+const area = goodTenantsCountryLibrary.getAreasByState(state, country)  
 console.log(area);
 
-//get sub areas
-const subArea = goodTenantsCountryLibrary.getSubareasByArea(area, state, country)
+//get sub areas  
+const subArea = goodTenantsCountryLibrary.getSubareasByArea(area, state, country)  
 console.log(subArea);
 
 ## Parameters
