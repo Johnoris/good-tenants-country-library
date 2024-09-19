@@ -3333,7 +3333,7 @@ const nigeria = [
     'Sheema , Western',
   ];
   
-  const countries: {[key: string]: any} = { nigeria, kenya, uganda };
+  const countries: {[key: string]: any} = { nigeria, kenya, uganda, rwanda, zambia };
   
   const useGoodTenantsCountryLibrary = () => {
   
