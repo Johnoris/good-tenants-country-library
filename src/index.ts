@@ -3353,6 +3353,8 @@ const nigeria = [
       });
       return Array.from(states).sort();
     }
+
+    console.log(getStates('rwanda'))
   
     function getAreasByState(state: any, country: any) {
       const data = countries[country];
@@ -3387,5 +3389,4 @@ const nigeria = [
   
     return { getStates, getAreasByState, getSubareasByArea };
   }
-  
 export default useGoodTenantsCountryLibrary;
